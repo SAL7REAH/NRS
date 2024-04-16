@@ -177,7 +177,7 @@ ul.menu li a:hover {
 }
 
 .content-team-item {
-    width: 500px;
+    width: 100%;
     height: auto;
     margin: 2px;
     justify-content: center;
