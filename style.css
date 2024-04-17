@@ -9,10 +9,10 @@ body {
 }
 
 .container {
-    max-width: 1200px;
     width: 100%;
-    margin-top: 0.5rem;
-    
+    margin-top:0.3rem;
+    padding: 0.5rem;
+    justify-content: center;
 }
 
 header {
@@ -33,6 +33,7 @@ header {
     display: flex;
     color: #fff;
     align-items: center;
+    justify-content: center;
 }
 
 .logo img {
@@ -43,9 +44,9 @@ header {
 }
 
 .logo h1 {
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
 }
 
@@ -54,6 +55,7 @@ ul.menu {
     justify-content: right;
     align-items: center;
     font-size: 15px;
+    margin: 0 0.5rem;
 }
 
 ul.menu li {
@@ -220,12 +222,12 @@ footer {
     font-size: 16px;
 }
 .footer-item h5 {
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 13px;
     color: #fff;
 }
 .footer-item span.page a {
-    color: #45ff5af1;
+    color: #ffa600;
     font-size: 15px;
     text-shadow: #000000d1;
     text-decoration: none;
@@ -237,14 +239,17 @@ footer {
 .footer-item p {
     margin: 10px 0; 
     font-size: 12px;
-    color: #fff;
-    text-shadow: #000000d1;
+    color: #ffa600;
+    text-shadow: #fdfdfdd1;
 }
 .footer-item a {
-    display: flex;
     font-size: 12px;
-    color: #2afbce;
+    color: #ffa600;
     text-decoration: none;
+}
+.footer-item iframe {
+    width: 200px;
+    height: auto;
 }
 /* End Footer */
 
